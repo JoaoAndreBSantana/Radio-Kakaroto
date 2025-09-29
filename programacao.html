@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programação - Rádio KAKAROTO</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+   <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Rádio KAKAROTO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item"><a
+             class="nav-link active" href="index.html">Home</a></li>
+
+            <li class="nav-item"><a class="nav-link" href="programacao.html">Programação</a></li>
+
+            <li class="nav-item"><a class="nav-link" href="locutores.html">Locutores</a></li>
+            <li class="nav-item"><a class="nav-link" href="podcasts.html">Podcasts</a></li>
+            <li class="nav-item"><a class="nav-link" href="noticias.html">Notícias</a></li>
+            <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+<div class="container py-5">
+
+<div class="text-center mb-5"> 
+     <h1 class="display-5 fw-bold text-primary text-white">Programação KAKAROTO</h1>
+    <p class="lead text-white">Confira nossa grade completa de programação semanal. Música, informação e entretenimento para todos os momentos do seu dia.</p>
+</div>
+   
+
+  <!-- Nav Pills -->
+  <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation"><button class="nav-link active" id="segunda-tab" data-bs-toggle="pill" data-bs-target="#segunda">Segunda</button></li>
+    <li class="nav-item" role="presentation"><button class="nav-link" id="terca-tab" data-bs-toggle="pill" data-bs-target="#terca">Terça</button></li>
+    <li class="nav-item" role="presentation"><button class="nav-link" id="quarta-tab" data-bs-toggle="pill" data-bs-target="#quarta">Quarta</button></li>
+    <li class="nav-item" role="presentation"><button class="nav-link" id="quinta-tab" data-bs-toggle="pill" data-bs-target="#quinta">Quinta</button></li>
+    <li class="nav-item" role="presentation"><button class="nav-link" id="sexta-tab" data-bs-toggle="pill" data-bs-target="#sexta">Sexta</button></li>
+    <li class="nav-item" role="presentation"><button class="nav-link" id="sabado-tab" data-bs-toggle="pill" data-bs-target="#sabado">Sábado</button></li>
+    <li class="nav-item" role="presentation"><button class="nav-link" id="domingo-tab" data-bs-toggle="pill" data-bs-target="#domingo">Domingo</button></li>
+  </ul>
+
+  <!-- Conteúdo das Abas -->
+  <div class="tab-content" id="pills-tabContent">
+
+    <!-- Segunda -->
+    <div class="tab-pane fade show active" id="segunda">
+      <div class="card mb-3">
+        <div class="card-header bg-primary text-white"><i class="bi bi-mic-fill"></i> Programação de Segunda-feira</div>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover">
+              <span><i class="bi bi-clock-fill"></i> 06:00 - 09:00</span> Bom Dia KAKAROTO com Carlos Mendes
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover">
+              <span><i class="bi bi-clock-fill"></i> 09:00 - 12:00</span> Hits da Manhã com Ana Silva
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover">
+              <span><i class="bi bi-clock-fill"></i> 12:00 - 14:00</span> Conexão News com Ricardo Santos
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover">
+              <span><i class="bi bi-clock-fill"></i> 14:00 - 18:00</span> Tarde Musical com Mariana Costa
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover">
+              <span><i class="bi bi-clock-fill"></i> 18:00 - 22:00</span> Drive Time com João Pedro
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover">
+              <span><i class="bi bi-clock-fill"></i> 22:00 - 02:00</span> Noite KAKAROTO com Fernanda Lima
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover">
+              <span><i class="bi bi-clock-fill"></i> 02:00 - 06:00</span> Madrugada Musical com Automático
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Terça -->
+    <div class="tab-pane fade" id="terca">
+      <div class="card mb-3">
+        <div class="card-header bg-primary text-white"><i class="bi bi-mic-fill"></i> Programação de Terça-feira</div>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 06:00 - 09:00</span> Bom Dia KAKAROTO com Carlos Mendes</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 09:00 - 12:00</span> Hits da Manhã com Ana Silva</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 12:00 - 14:00</span> Conexão News com Ricardo Santos</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 14:00 - 18:00</span> Rock Tuesday com Paulo Rocha</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 18:00 - 22:00</span> Drive Time com João Pedro</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 22:00 - 02:00</span> Noite KAKAROTO com Fernanda Lima</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 02:00 - 06:00</span> Madrugada Musical com Automático</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quarta -->
+    <div class="tab-pane fade" id="quarta">
+      <div class="card mb-3">
+        <div class="card-header bg-primary text-white"><i class="bi bi-mic-fill"></i> Programação de Quarta-feira</div>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 06:00 - 09:00</span> Bom Dia KAKAROTO com Carlos Mendes</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 09:00 - 12:00</span> Hits da Manhã com Ana Silva</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 12:00 - 14:00</span> Conexão News com Ricardo Santos</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 14:00 - 18:00</span> MPB na Veia com Lucia Fernandes</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 18:00 - 22:00</span> Drive Time com João Pedro</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 22:00 - 02:00</span> Noite KAKAROTO com Fernanda Lima</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 02:00 - 06:00</span> Madrugada Musical com Automático</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quinta -->
+    <div class="tab-pane fade" id="quinta">
+      <div class="card mb-3">
+        <div class="card-header bg-primary text-white"><i class="bi bi-mic-fill"></i> Programação de Quinta-feira</div>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 06:00 - 09:00</span> Bom Dia KAKAROTO com Carlos Mendes</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 09:00 - 12:00</span> Hits da Manhã com Ana Silva</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 12:00 - 14:00</span> Conexão News com Ricardo Santos</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 14:00 - 18:00</span> Tarde Musical com Mariana Costa</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 18:00 - 22:00</span> Throwback Thursday com Roberto Vintage</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 22:00 - 02:00</span> Noite KAKAROTO com Fernanda Lima</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 02:00 - 06:00</span> Madrugada Musical com Automático</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sexta -->
+    <div class="tab-pane fade" id="sexta">
+      <div class="card mb-3">
+        <div class="card-header bg-primary text-white"><i class="bi bi-mic-fill"></i> Programação de Sexta-feira</div>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 06:00 - 09:00</span> Bom Dia KAKAROTO com Carlos Mendes</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 09:00 - 12:00</span> Hits da Manhã com Ana Silva</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 12:00 - 14:00</span> Conexão News com Ricardo Santos</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 14:00 - 18:00</span> Sexta Dançante com DJ Bruno</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 18:00 - 22:00</span> Happy Hour KAKAROTO com Grupo de Locutores</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 22:00 - 02:00</span> Balada KAKAROTO com DJ Mix</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 02:00 - 06:00</span> Madrugada Musical com Automático</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sábado -->
+    <div class="tab-pane fade" id="sabado">
+      <div class="card mb-3">
+        <div class="card-header bg-primary text-white"><i class="bi bi-mic-fill"></i> Programação de Sábado</div>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 08:00 - 12:00</span> Manhã de Sábado com Sandra Weekend</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 12:00 - 16:00</span> Pagode KAKAROTO com Samuca</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 16:00 - 20:00</span> Sertanejo Raiz com Zé do Rancho</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 20:00 - 00:00</span> Noite Dançante com DJ Carlos</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 00:00 - 08:00</span> Madrugada Musical com Automático</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Domingo -->
+    <div class="tab-pane fade" id="domingo">
+      <div class="card mb-3">
+        <div class="card-header bg-primary text-white"><i class="bi bi-mic-fill"></i> Programação de Domingo</div>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 08:00 - 12:00</span> Domingo Gospel com Pastor Marcos</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 12:00 - 16:00</span> Família KAKAROTO com Tia Lu</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 16:00 - 20:00</span> Domingo Clássico com Maestro Silva</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 20:00 - 00:00</span> Domingo Relax com Ana Tranquilidade</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center card-hover"><span><i class="bi bi-clock-fill"></i> 00:00 - 08:00</span> Madrugada Musical com Automático</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Player -->
+  <div class="mt-5 text-center">
+    <div class="card bg-gradient-primary text-white p-4">
+      <h2>Ouvindo Agora</h2>
+      <p>Sintonize na Rádio KAKAROTO e acompanhe nossa programação ao vivo!</p>
+     <audio class="w-100" controls preload="none">
+          <source src="https://antenaone.crossradio.com.br/stream/9;" type="audio/mpeg">
+          Seu navegador não suporta o elemento de áudio.
+          <a href="https://antenaone.crossradio.com.br/stream/9;">Ouça aqui</a>.
+        </audio>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

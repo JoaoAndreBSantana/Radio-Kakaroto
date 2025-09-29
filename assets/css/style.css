@@ -1,0 +1,102 @@
+header {
+  min-height: 600px; 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+header.perso {
+  height: 10vh; /* menos alto */
+  width: 100%;  /* largura total da tela */
+  background-color: #211e63; /* imagem de fundo */
+  background-size: cover;
+  position: relative;
+}
+
+
+
+
+
+.bg-gradient-primary { 
+  background: linear-gradient(180deg,#211e63,#ea335e); 
+}
+
+.card-hover:hover { 
+  background-color: #f8f9fa; 
+  transition: 0.2s; 
+}
+
+
+
+
+body {
+ /* background: linear-gradient(180deg, #211e63, #ea335e);*/
+   background: linear-gradient(180deg, #ea335e, #211e63);
+
+}
+
+body.pt {
+  background: #f8f9fa;
+}
+
+.gradiente-texto {
+  background: linear-gradient(180deg, #ea335e, #211e63);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  color: transparent;     
+}
+
+
+.nav-pills .nav-link.active {
+  background-color: #211e63; /* cor que você quer */
+  color: #fff;               /* cor do texto */
+}
+
+.nav-pills .nav-link {
+  color: #fff;        /* cor do texto quando NÃO está ativa */
+}
+
+
+.bg-primary {
+  background-color: #211e63 !important;  /* cor nova */
+}
+
+.bg-cor{
+  background-color: #211e63 ;
+}
+
+
+
+
+.text-personalizado {
+  color:#211e63; /* aqui você coloca a cor que quiser */
+}
+
+
+.hero-section {
+      position: relative;
+      min-height: 60vh;
+      background: url('hero-bg.webp') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    .hero-section::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+    .bg-gradient-primary {
+      background: linear-gradient(90deg,  #ea335e, #211e63);
+    }
+
+    html {
+  scroll-behavior: smooth;
+}

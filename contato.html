@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Rádio KAKAROTO</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="pt">
+  
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Rádio KAKAROTO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item"><a
+             class="nav-link active" href="index.html">Home</a></li>
+
+            <li class="nav-item"><a class="nav-link" href="programacao.html">Programação</a></li>
+
+            <li class="nav-item"><a class="nav-link" href="locutores.html">Locutores</a></li>
+            <li class="nav-item"><a class="nav-link" href="podcasts.html">Podcasts</a></li>
+            <li class="nav-item"><a class="nav-link" href="noticias.html">Notícias</a></li>
+            <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <div class="container py-5">
+
+    <!-- Título -->
+    <div class="text-center mb-5">
+      <h1 class="display-4 gradiente-texto mb-3">Entre em Contato</h1>
+      <p class="lead text-muted mx-auto gradiente-texto " style="max-width: 700px;">
+        Estamos sempre prontos para ouvir você! Entre em contato conosco para sugestões, 
+        parcerias, participação em programas ou qualquer dúvida sobre a Rádio KAKAROTO.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Formulário de Contato -->
+      <div class="col-lg-6">
+        <div class="card shadow-sm">
+          <div class="card-header bg-white">
+            <h5 class="card-title mb-0"><i class="bi bi-send-fill me-2 gradiente-texto"></i>Envie sua Mensagem</h5>
+          </div>
+          <div class="card-body">
+            <form id="contatoForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="nome" class="form-label">Nome Completo *</label>
+                  <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome completo" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="telefone" class="form-label">Telefone</label>
+                  <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(11) 99999-9999">
+                </div>
+              </div>
+
+              <div class="mb-3 mt-3">
+                <label for="email" class="form-label">E-mail *</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="seu@email.com" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="assunto" class="form-label">Assunto</label>
+                <input type="text" class="form-control" id="assunto" name="assunto" placeholder="Assunto da sua mensagem">
+              </div>
+
+              <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem *</label>
+                <textarea class="form-control" id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem aqui..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn bg-cor w-100 text-white">
+                <i class="bi bi-send-fill me-2"></i>Enviar Mensagem</button>
+              <p class="text-muted small mt-2">* Campos obrigatórios. Responderemos em até 24 horas.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Informações de Contato -->
+      <div class="col-lg-6">
+        <!-- Localização -->
+        <div class="card shadow-sm mb-3">
+          <div class="card-header bg-white">
+            <h5 class="card-title mb-0"><i class="bi bi-geo-alt-fill me-2 gradiente-texto"></i>Nossa Localização</h5>
+          </div>
+          <div class="card-body">
+            <p class="text-muted mb-2">
+              Rádio KAKAROTO Comunicação Ltda.<br>
+              Avenida Paulista, 1000 - Sala 801<br>
+              Bela Vista - São Paulo, SP<br>
+              CEP: 01310-100
+            </p>
+          </div>
+        </div>
+
+        <!-- Telefones -->
+        <div class="card shadow-sm mb-3">
+          <div class="card-header bg-white">
+            <h5 class="card-title mb-0"><i class="bi bi-telephone-fill me-2 gradiente-texto"></i>Telefones</h5>
+          </div>
+          <div class="card-body">
+            <p class="mb-1"><strong>Central de Atendimento:</strong> <span class="text-muted">(11) 3456-7890</span></p>
+            <p class="mb-1"><strong>WhatsApp:</strong> <span class="text-muted">(11) 99876-5432</span></p>
+            <p class="mb-0"><strong>Comercial:</strong> <span class="text-muted">(11) 3456-7891</span></p>
+          </div>
+        </div>
+
+        <!-- E-mails -->
+        <div class="card shadow-sm mb-3">
+          <div class="card-header bg-white">
+            <h5 class="card-title mb-0"><i class="bi bi-envelope-fill me-2 gradiente-texto"></i>E-mails</h5>
+          </div>
+          <div class="card-body">
+            <p class="mb-1"><strong>Contato Geral:</strong> <a href="mailto:contato@radiokakaroto.com">radiokakaroto@gmail.com</a></p>
+            </p>
+          </div>
+        </div>
+
+        <!-- Horário -->
+        <div class="card shadow-sm mb-3">
+          <div class="card-header bg-white">
+            <h5 class="card-title mb-0"><i class="bi bi-clock-fill me-2 gradiente-texto"></i>Horário de Funcionamento</h5>
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between"><span>Segunda a Sexta:</span> <span class="text-muted">8h às 18h</span></div>
+            <div class="d-flex justify-content-between"><span>Sábado:</span> <span class="text-muted">9h às 13h</span></div>
+            <div class="d-flex justify-content-between"><span>Domingo:</span> <span class="text-muted">Fechado</span></div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const form = document.getElementById('contatoForm');
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const nome = form.nome.value.trim();
+      const email = form.email.value.trim();
+      const mensagem = form.mensagem.value.trim();
+      const telefone = form.telefone.value.trim() || 'Não informado';
+      const assunto = form.assunto.value.trim() || 'Contato pelo site';
+
+      if (!nome || !email || !mensagem) {
+        alert('Por favor, preencha todos os campos obrigatórios.');
+        return;
+      }
+
+      const body = `Nome: ${nome}\nEmail: ${email}\nTelefone: ${telefone}\nAssunto: ${assunto}\n\nMensagem:\n${mensagem}`;
+      window.location.href = `mailto:contato@radiokakaroto.com?subject=${encodeURIComponent(assunto)}&body=${encodeURIComponent(body)}`;
+      form.reset();
+      alert('Mensagem enviada! Seu cliente de email foi aberto.');
+    });
+  </script>
+
+</body>
+</html>

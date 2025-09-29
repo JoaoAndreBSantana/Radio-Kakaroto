@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rádio KAKAROTO - A trilha sonora da sua vida</title>
+    <meta name="description" content="Rádio KAKAROTO - Música, informação e entretenimento 24h por dia. A melhor programação musical do Brasil com locutores apaixonados e diversidade musical." />
+
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Fonte Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  
+  </head>
+
+  <body>
+    <!-- Skip link -->
+    <a href="#main-content" class="visually-hidden-focusable">Pular para o conteúdo</a>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Rádio KAKAROTO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="programacao.html">Programação</a></li>
+            <li class="nav-item"><a class="nav-link" href="locutores.html">Locutores</a></li>
+            <li class="nav-item"><a class="nav-link" href="podcasts.html">Podcasts</a></li>
+            <li class="nav-item"><a class="nav-link" href="noticias.html">Notícias</a></li>
+            <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="bg-primary text-white text-center py-5" style="background-image: url('assets/img/musica_fundo.jpg');">
+      <div class="container">
+        <h1 class="display-5 fw-bold">A trilha sonora da sua vida</h1>
+        <p class="lead">Música, informação e entretenimento 24h por dia.</p>
+        <a href="#player" class="btn btn-light btn-lg me-2">Ouvir Agora</a>
+        <a href="programacao.html" class="btn btn-outline-light btn-lg">Ver Programação</a>
+      </div>
+    </header>
+
+    <!-- Player ao vivo -->
+    <section id="player" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="mb-3">Player Ao Vivo</h2>
+        <audio class="w-100" controls preload="none">
+          <source src="https://antenaone.crossradio.com.br/stream/9;" type="audio/mpeg">
+          Seu navegador não suporta o elemento de áudio.
+          <a href="https://antenaone.crossradio.com.br/stream/9;">Ouça aqui</a>.
+        </audio>
+      </div>
+    </section>
+
+    <!-- Destaques -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="mb-4 text-white">Destaques de Hoje</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="assets/img/microfone_foto.jpg" class="card-img-top" alt="Destaque 1">
+              <div class="card-body">
+                <h5 class="card-title">Bom Dia Kakaroto</h5>
+                <p class="card-text">Programação matinal com notícias e música para começar bem o dia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="assets/img/top_hits_foto.jpg" class="card-img-top" alt="Destaque 2">
+              <div class="card-body">
+                <h5 class="card-title">Top Hits</h5>
+                <p class="card-text">As músicas mais tocadas do Brasil e do mundo, 24h por dia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="assets/img/noticias_foto.jpg" class="card-img-top" alt="Destaque 3">
+              <div class="card-body">
+                <h5 class="card-title">Conexão News</h5>
+                <p class="card-text">Informações e notícias atualizadas com os melhores locutores.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <p>&copy; 2025 Rádio KAKAROTO Comunicação Ltda. Todos os direitos reservados.</p>
+        <a href="sobre.html" class="text-white me-3">Sobre</a>
+        <a href="politica-privacidade.html" class="text-white me-3">Política de Privacidade</a>
+        <a href="contato.html" class="text-white">Contato</a>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
